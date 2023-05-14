@@ -1,9 +1,11 @@
 # Purpose
 
-I'm attempting to create a signed macOS bundle/app version of Guiguts. The
+I'm attempting to create a signed macOS bundle/app version of [Guiguts][]. The
 current Guiguts install / maintenance experience for Mac users is not great.
 There are many steps, it is easy to get lost in the process, and there is a lot
 of room for improvement.
+
+[guiguts]: https://github.com/DistributedProofreaders/guiguts
 
 # Goal
 
@@ -16,6 +18,12 @@ Apple. I don't currently intend to distribute the app via the App Store, but
 signing/notarizing are still needed outside the App Store.
 
 [xquartz]: https://www.xquartz.org
+
+# License
+
+This project is licensed under the 3-clause BSD license (see LICENSE file).
+Guiguts itself is licensed under its own terms; see the [guiguts][] project for
+more information on its licensing.
 
 # External dependencies
 
@@ -43,3 +51,4 @@ Obviously, signing the application will require a Developer Certificate from
 Apple. For the time being, that certificate will be mine, at my own expense. I
 would not expect DP or PG to take that cost or maintenance responsibility on
 (unless they really preferred to do so).
+
